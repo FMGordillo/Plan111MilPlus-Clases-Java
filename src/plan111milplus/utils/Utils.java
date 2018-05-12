@@ -36,6 +36,7 @@ public class Utils {
     
     /**
      * Muestra en consola el mensaje (sin formato)
+     * NOTE: Incluye un salto de línea por defecto, a diferencia de printf()
      * @param mensaje 
      */
     public static void mostrarEnConsola(String mensaje) {
@@ -43,6 +44,7 @@ public class Utils {
     }
     /**
      * Muestra en consola el mensaje, formato obligatorio
+     * NOTE: NO incluye el salto de línea, recuerde que es \n
      * @param mensaje 
      * @param formato
      */
