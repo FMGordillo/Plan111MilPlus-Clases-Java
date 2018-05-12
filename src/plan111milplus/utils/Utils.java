@@ -17,7 +17,7 @@ public class Utils {
      * @return String
      */
     public static String obtenerTexto() {
-        return in.nextLine();
+        return in.next();
     }
     /**
      * Obtiene el entero ingresado por consola
